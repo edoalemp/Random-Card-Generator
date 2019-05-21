@@ -1,0 +1,28 @@
+body {
+    background-color:green;
+}
+.card {
+    display:flex;
+    background:white;
+    margin:0 auto;
+    width:200px;
+    height: 300px;
+    padding: 10px;
+}
+
+.heart{
+    display:none
+
+}
+
+.diamond{
+    display:none
+}
+
+.spade{
+    display:none
+}
+
+.club{
+    display:none
+}
