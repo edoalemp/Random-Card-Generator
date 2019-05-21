@@ -8,13 +8,14 @@ body {
     width:200px;
     height: 300px;
     padding: 0px;
+    border-radius:10px
 }
 
 .heart{
     display:block;
     width:200px;
     height:300px;
-    font-size: 70px;
+    font-size: 100px;
     text-align:center;
     vertical-align:middle;
     line-height: 300px;
@@ -25,28 +26,29 @@ body {
     float:left;
     width:25px;
     height:300px;
-    font-size:18px;
-    content:"H";
+    font-size:35px;
+    content:"\2665";
     color:red;
-    line-height:25px
+    line-height:35px
 }
 
 .heart:after{
     display:block;
     float:right;
+    text-align:left;
     width:25px;
     height:300px;
-    font-size:18px;
-    content:"H";
+    font-size:35px;
+    content:"\2665";
     color:red;
-    line-height:575px
+    line-height:565px
 }
 
 .diamond{
     display:block;
     width:200px;
     height:300px;
-    font-size: 70px;
+    font-size: 100px;
     text-align:center;
     vertical-align:middle;
     line-height: 300px;
@@ -57,27 +59,28 @@ body {
     float:left;
     width:25px;
     height:300px;
-    font-size:18px;
-    content:"D";
+    font-size:35px;
+    content:"\2666";
     color:red;
-    line-height:25px
+    line-height:35px
     }
 .diamond:after{
     display:block;
     float:right;
+    text-align:left;
     width:25px;
     height:300px;
-    font-size:18px;
-    content:"D";
+    font-size:35px;
+    content:"\2666";
     color:red;
-    line-height:575px
+    line-height:565px
     }
 
 .spade{
     display:block;
     width:200px;
     height:300px;
-    font-size: 70px;
+    font-size: 100px;
     text-align:center;
     vertical-align:middle;
     line-height: 300px;
@@ -87,26 +90,27 @@ body {
     float:left;
     width:25px;
     height:300px;
-    font-size:18px;
-    content:"S";
+    font-size:35px;
+    content:"\2660";
     color:black;
-    line-height:25px
+    line-height:35px
     }
 .spade:after{
     display:block;
     float:right;
+    text-align:left;
     width:25px;
     height:300px;
-    font-size:18px;
-    content:"S";
+    font-size:35px;
+    content:"\2660";
     color:black;
-    line-height:575px}
+    line-height:565px}
 
 .club{
     display:block;
     width:200px;
     height:300px;
-    font-size: 70px;
+    font-size: 100px;
     text-align:center;
     vertical-align:middle;
     line-height: 300px;
@@ -116,17 +120,18 @@ body {
     float:left;
     width:25px;
     height:300px;
-    font-size:18px;
-    content:"C";
+    font-size:35px;
+    content:"\2663";
     color:black;
-    line-height:25px
+    line-height:35px
     }
 .club:after{
     display:block;
     float:right;
+    text-align:left;
     width:25px;
     height:300px;
-    font-size:18px;
-    content:"C";
+    font-size:35px;
+    content:"\2663";
     color:black;
-    line-height:575px}
+    line-height:565px}
