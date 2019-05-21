@@ -11,7 +11,7 @@ body {
 }
 
 .heart{
-    display:none;
+    display:block;
     width:200px;
     height:300px;
     font-size: 70px;
@@ -21,42 +21,112 @@ body {
 }
 
 .heart:before{
-    display:none;
+    display:block;
     float:left;
     width:25px;
     height:300px;
-    font-size:20px;
+    font-size:18px;
     content:"H";
     color:red;
     line-height:25px
 }
 
 .heart:after{
-    display:none;
+    display:block;
     float:right;
     width:25px;
     height:300px;
-    font-size:20px;
+    font-size:18px;
     content:"H";
     color:red;
     line-height:575px
 }
 
 .diamond{
-    display:none;
+    display:block;
+    width:200px;
+    height:300px;
+    font-size: 70px;
+    text-align:center;
+    vertical-align:middle;
+    line-height: 300px;
 
 }
-.diamond:before{display:flex;}
-.diamond:after{display:flex;}
+.diamond:before{
+    display:block;
+    float:left;
+    width:25px;
+    height:300px;
+    font-size:18px;
+    content:"D";
+    color:red;
+    line-height:25px
+    }
+.diamond:after{
+    display:block;
+    float:right;
+    width:25px;
+    height:300px;
+    font-size:18px;
+    content:"D";
+    color:red;
+    line-height:575px
+    }
 
 .spade{
-    display:none
+    display:block;
+    width:200px;
+    height:300px;
+    font-size: 70px;
+    text-align:center;
+    vertical-align:middle;
+    line-height: 300px;
 }
-.spade:before{display:flex;}
-.spade:after{display:flex;}
+.spade:before{
+    display:block;
+    float:left;
+    width:25px;
+    height:300px;
+    font-size:18px;
+    content:"S";
+    color:black;
+    line-height:25px
+    }
+.spade:after{
+    display:block;
+    float:right;
+    width:25px;
+    height:300px;
+    font-size:18px;
+    content:"S";
+    color:black;
+    line-height:575px}
 
 .club{
-    display:none
+    display:block;
+    width:200px;
+    height:300px;
+    font-size: 70px;
+    text-align:center;
+    vertical-align:middle;
+    line-height: 300px;
 }
-.club:before{display:flex;}
-.club:after{display:flex;}
+.club:before{
+    display:block;
+    float:left;
+    width:25px;
+    height:300px;
+    font-size:18px;
+    content:"C";
+    color:black;
+    line-height:25px
+    }
+.club:after{
+    display:block;
+    float:right;
+    width:25px;
+    height:300px;
+    font-size:18px;
+    content:"C";
+    color:black;
+    line-height:575px}

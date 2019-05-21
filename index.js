@@ -1,5 +1,5 @@
 function onload(){
-    var sute = 1 //(Math.floor(4*Math.random())+1);
+    var sute = (Math.floor(4*Math.random())+1);
     var num = (Math.floor(13*Math.random())+1);
     var hearts =document.getElementsByClassName("heart");
     var diamonds =document.getElementsByClassName("diamond");
@@ -32,19 +32,35 @@ function onload(){
     }
     switch (sute){
         case 1:
+            //var hearts =document.getElementsByClassName("heart");
             hearts[0].style.display="block";
+            diamonds[0].style.display="none";
+            clubs[0].style.display="none";
+            spades[0].style.display="none";
             hearts[0].innerHTML=strnum;
         break;
         case 2:
-            diamonds[0].style.display="inline-flex";
-            diamonds[0].innerHTML="<p>"+strnum+"<p>";
+            //var diamonds =document.getElementsByClassName("diamond");
+            hearts[0].style.display="none";
+            diamonds[0].style.display="block";
+            clubs[0].style.display="none";
+            spades[0].style.display="none";
+            diamonds[0].innerHTML=strnum;
         break;
         case 3:
-            clubs[0].style.display="inline-flex";
+            //var clubs =document.getElementsByClassName("club");
+            hearts[0].style.display="none";
+            diamonds[0].style.display="none";
+            clubs[0].style.display="block";
+            spades[0].style.display="none";
             clubs[0].innerHTML=strnum;
         break
         case 4:
-            spades[0].style.display="inline-flex";
+            //var spades =document.getElementsByClassName("spade");
+            hearts[0].style.display="none";
+            diamonds[0].style.display="none";
+            clubs[0].style.display="none";
+            spades[0].style.display="block";
             spades[0].innerHTML=strnum;
     }
 }
