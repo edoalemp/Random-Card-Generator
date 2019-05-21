@@ -4,25 +4,59 @@ body {
 .card {
     display:flex;
     background:white;
-    margin:0 auto;
+    margin:auto;
     width:200px;
     height: 300px;
-    padding: 10px;
+    padding: 0px;
 }
 
 .heart{
-    display:none
+    display:none;
+    width:200px;
+    height:300px;
+    font-size: 70px;
+    text-align:center;
+    vertical-align:middle;
+    line-height: 300px;
+}
 
+.heart:before{
+    display:none;
+    float:left;
+    width:25px;
+    height:300px;
+    font-size:20px;
+    content:"H";
+    color:red;
+    line-height:25px
+}
+
+.heart:after{
+    display:none;
+    float:right;
+    width:25px;
+    height:300px;
+    font-size:20px;
+    content:"H";
+    color:red;
+    line-height:575px
 }
 
 .diamond{
-    display:none
+    display:none;
+
 }
+.diamond:before{display:flex;}
+.diamond:after{display:flex;}
 
 .spade{
     display:none
 }
+.spade:before{display:flex;}
+.spade:after{display:flex;}
 
 .club{
     display:none
 }
+.club:before{display:flex;}
+.club:after{display:flex;}

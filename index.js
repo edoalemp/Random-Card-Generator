@@ -1,5 +1,5 @@
 function onload(){
-    var sute = (Math.floor(4*Math.random())+1);
+    var sute = 1 //(Math.floor(4*Math.random())+1);
     var num = (Math.floor(13*Math.random())+1);
     var hearts =document.getElementsByClassName("heart");
     var diamonds =document.getElementsByClassName("diamond");
@@ -32,12 +32,12 @@ function onload(){
     }
     switch (sute){
         case 1:
-            hearts[0].style.display="inline-flex";
+            hearts[0].style.display="block";
             hearts[0].innerHTML=strnum;
         break;
         case 2:
             diamonds[0].style.display="inline-flex";
-            diamonds[0].innerHTML=strnum;
+            diamonds[0].innerHTML="<p>"+strnum+"<p>";
         break;
         case 3:
             clubs[0].style.display="inline-flex";
